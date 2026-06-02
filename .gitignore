@@ -15,10 +15,8 @@ archive/
 backup/
 experiments/
 DiBS/results/
-dataset/prepared_data/
-dataset/table4_extension/
-model/diffusion-vs-ar/cache/
-model/diffusion-vs-ar/output/
-model/diffusion-vs-ar/test_results/
-model/diffusion-vs-ar/full_test_results/
-model/diffusion-vs-ar/ultimate_results/
+
+dataset/*
+!dataset/.gitkeep
+model/*
+!model/.gitkeep
