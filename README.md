@@ -36,6 +36,26 @@ same branch-ordering principle to satisfiable 3-SAT instances.
 Datasets, pretrained checkpoints, generated outputs, and third-party model
 implementations are intentionally not included in this repository.
 
+## Acknowledgement
+
+DiBS uses the discrete diffusion model from
+[HKUNLP/diffusion-vs-ar](https://github.com/HKUNLP/diffusion-vs-ar) as its
+learned branch-ordering prior. We thank the authors of
+[*Beyond Autoregression: Discrete Diffusion for Complex Reasoning and
+Planning*](https://arxiv.org/abs/2410.14157) for making their model and code
+publicly available. Their work is an important foundation for this project.
+
+If you use DiBS, please also cite:
+
+```bibtex
+@article{ye2024beyond,
+  title={Beyond Autoregression: Discrete Diffusion for Complex Reasoning and Planning},
+  author={Ye, Jiacheng and Gao, Jiahui and Gong, Shansan and Zheng, Lin and Jiang, Xin and Li, Zhenguo and Kong, Lingpeng},
+  journal={arXiv preprint arXiv:2410.14157},
+  year={2024}
+}
+```
+
 ## Code Overview
 
 - `DiBS/solver.py`: complete Sudoku search with diffusion-informed ordering.
