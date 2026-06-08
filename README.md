@@ -45,7 +45,20 @@ learned branch-ordering prior. We thank the authors of
 Planning*](https://arxiv.org/abs/2410.14157) for making their model and code
 publicly available. Their work is an important foundation for this project.
 
-If you use DiBS, please also cite:
+If you use DiBS, cite this:
+```bibtex
+@misc{liu2026dibsdiffusioninformedbranchselection,
+      title={DiBS: Diffusion-Informed Branch Selection}, 
+      author={Bo Liu and Yuan Xie and Yuan Gao and Xiaolong Luo and Peng Ye and Tao Chen and Fujun Han},
+      year={2026},
+      eprint={2606.06518},
+      archivePrefix={arXiv},
+      primaryClass={cs.AI},
+      url={https://arxiv.org/abs/2606.06518}, 
+}
+```
+
+please also cite:
 
 ```bibtex
 @article{ye2024beyond,
